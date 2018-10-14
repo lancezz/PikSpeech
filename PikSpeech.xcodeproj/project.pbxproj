@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1F71752172BDD300FEE20B /* Pictures in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F71742172BDD300FEE20B /* Pictures */; };
+		7E1F71782172BFAE00FEE20B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F71762172BFAE00FEE20B /* SettingsViewController.swift */; };
+		7E1F71792172BFAE00FEE20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1F71772172BFAE00FEE20B /* ViewController.swift */; };
 		7EAD841621693A4800150FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD841521693A4800150FB6 /* AppDelegate.swift */; };
-		7EAD841821693A4800150FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD841721693A4800150FB6 /* ViewController.swift */; };
 		7EAD841B21693A4800150FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD841921693A4800150FB6 /* Main.storyboard */; };
 		7EAD841E21693A4800150FB6 /* PikSpeech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD841C21693A4800150FB6 /* PikSpeech.xcdatamodeld */; };
 		7EAD842021693A4D00150FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD841F21693A4D00150FB6 /* Assets.xcassets */; };
 		7EAD842321693A4D00150FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD842121693A4D00150FB6 /* LaunchScreen.storyboard */; };
 		7EAD842E21693A4D00150FB6 /* PikSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD842D21693A4D00150FB6 /* PikSpeechTests.swift */; };
 		7EAD843921693A4D00150FB6 /* PikSpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD843821693A4D00150FB6 /* PikSpeechUITests.swift */; };
+		7EAD844B216A2D9B00150FB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD844A216A2D9B00150FB6 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E1F71742172BDD300FEE20B /* Pictures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pictures; sourceTree = SOURCE_ROOT; };
+		7E1F71762172BFAE00FEE20B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7E1F71772172BFAE00FEE20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EAD841221693A4800150FB6 /* PikSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAD841521693A4800150FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EAD841721693A4800150FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EAD841A21693A4800150FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EAD841D21693A4800150FB6 /* PikSpeech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PikSpeech.xcdatamodel; sourceTree = "<group>"; };
 		7EAD841F21693A4D00150FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		7EAD843421693A4D00150FB6 /* PikSpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikSpeechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAD843821693A4D00150FB6 /* PikSpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikSpeechUITests.swift; sourceTree = "<group>"; };
 		7EAD843A21693A4D00150FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAD844A216A2D9B00150FB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 		7EAD841421693A4800150FB6 /* PikSpeech */ = {
 			isa = PBXGroup;
 			children = (
+				7EAD844A216A2D9B00150FB6 /* HomeViewController.swift */,
 				7EAD841521693A4800150FB6 /* AppDelegate.swift */,
-				7EAD841721693A4800150FB6 /* ViewController.swift */,
 				7EAD841921693A4800150FB6 /* Main.storyboard */,
+				7E1F71762172BFAE00FEE20B /* SettingsViewController.swift */,
+				7E1F71772172BFAE00FEE20B /* ViewController.swift */,
 				7EAD841F21693A4D00150FB6 /* Assets.xcassets */,
+				7E1F71742172BDD300FEE20B /* Pictures */,
 				7EAD842121693A4D00150FB6 /* LaunchScreen.storyboard */,
 				7EAD842421693A4D00150FB6 /* Info.plist */,
 				7EAD841C21693A4800150FB6 /* PikSpeech.xcdatamodeld */,
@@ -234,6 +243,7 @@
 			files = (
 				7EAD842321693A4D00150FB6 /* LaunchScreen.storyboard in Resources */,
 				7EAD842021693A4D00150FB6 /* Assets.xcassets in Resources */,
+				7E1F71752172BDD300FEE20B /* Pictures in Resources */,
 				7EAD841B21693A4800150FB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1F71792172BFAE00FEE20B /* ViewController.swift in Sources */,
 				7EAD841E21693A4800150FB6 /* PikSpeech.xcdatamodeld in Sources */,
-				7EAD841821693A4800150FB6 /* ViewController.swift in Sources */,
 				7EAD841621693A4800150FB6 /* AppDelegate.swift in Sources */,
+				7EAD844B216A2D9B00150FB6 /* HomeViewController.swift in Sources */,
+				7E1F71782172BFAE00FEE20B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
